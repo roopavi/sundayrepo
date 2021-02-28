@@ -11,7 +11,7 @@ terraform {
     resource_group_name  = "rg1_storage"
     storage_account_name = "grsvstorageaccount"
     container_name       = "containergrsv"
-    key                  = "nsg.terraform.containergrsv"
+    key                  = "terraform.tfstate"
     access_key           = "TFsU9Xd1Bsvh6NMwToaOFFF+wqunmiHctyaTLYHHmg6QKfwESISEhApkKRSD2nIabEINr6kWdcbHp7hgTsPpcw=="
   }
 }
